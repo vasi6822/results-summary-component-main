@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container-fluid text-center">
+      <div class="row">
+        <div class="col resultTab">
+          <h3 class="resultTitle">Your Result</h3>
+          <div class="circle">
+            <h1 class="result">76 <span class="of">of 100</span></h1>
+          </div>
+
+          <h2 class="great">Great</h2>
+          <p class="info">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="col summaryTab">
+          <div class="summar">
+            <h3 class="summaryTitle text-start">Summary</h3>
+            <ul class="list-group text-start">
+              <li>
+                <p>
+                  <img src="/assets/images/icon-reaction.svg" alt="" /> Reaction
+                  <span class="score">80 <span class="summaryOutOf">/ 100</span></span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <img src="/assets/images/icon-memory.svg" alt="" /> Memory
+                  <span class="score"> 92 <span class="summaryOutOf">/ 100</span></span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <img src="/assets/images/icon-verbal.svg" alt="" /> Verbal
+                  <span class="score">61 <span class="summaryOutOf">/ 100</span></span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <img src="/assets/images/icon-verbal.svg" alt="" /> Visual
+                  <span class="score">72 <span class="summaryOutOf">/ 100</span></span>
+                </p>
+              </li>
+            </ul>
+            <button class="btn btn-primary continue">Continue</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
